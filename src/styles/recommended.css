@@ -23,20 +23,32 @@
 
 .close {
     position: absolute;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
-    background-color: black;
-    border: 1px solid whitesmoke;
-    color: whitesmoke;
+    background-color: #d29435;
+    color: black;
+    border-radius: 20px;
+    width: 75px;
+    border: none;
     
   }
 
 .close_one {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
-    background-color: black;
-    border: 1px solid whitesmoke;
-    color: whitesmoke;
+    background-color: #d29435;
+    color: black;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+}
+
+.close:hover {
+  background-color: orange;
+}
+
+.close_one:hover{
+  background-color: orange;
 }
 
 

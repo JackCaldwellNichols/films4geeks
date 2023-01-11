@@ -1,0 +1,10 @@
+.button {
+    background-color: #d29435;
+    border: none;
+    width: 150px;
+    border-radius: 30px;
+}
+
+.button:hover{
+    background-color: orange;
+}
