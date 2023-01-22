@@ -24,9 +24,9 @@ const Quotes = () => {
 					return (
 					<div key={index} >
 						<div > 
-							<h6 className="m-0"><i>"{quote.quote}"</i></h6><br></br>
-							<h6 className="m-0">{quote.movie}</h6><br></br>
-							<h6 className="m-0">{quote.year}</h6>
+							<h6 className="p-1"><i>"{quote.quote}"</i></h6>
+							<h6 className="p-1">{quote.movie}</h6>
+							<h6 className="p-1">{quote.year}</h6>
 						</div>
 					</div>	
 					)

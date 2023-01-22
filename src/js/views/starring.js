@@ -9,7 +9,7 @@ export const Starring = () => {
     <div className='container text-center mt-5'>
         <div className='d-flex justify-content-around flex-wrap'>
             <div>
-                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(#e66465, #9198e5)'}}>
+                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(29,9,121,0.8379726890756303) 8%, rgba(0,212,255,1) 100%)'}}>
                     <div style={{marginTop: '30px'}}>
                         <img src='spiderman.png' style={{height: '13rem', objectFit: 'contain'}}/>   
                     </div>
@@ -22,7 +22,7 @@ export const Starring = () => {
                 </div>
             </div>
             <div>
-                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(#e66465, #9198e5)'}}>
+                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(circle, rgba(127,130,56,1) 0%, rgba(2,0,36,1) 56%, rgba(86,148,161,1) 100%)'}}>
                     <div style={{marginTop:'30px'}}>
                         <img src='super.png' style={{height: '13rem', objectFit: 'contain'}}/>   
                     </div>
@@ -35,7 +35,7 @@ export const Starring = () => {
                 </div>
             </div>
             <div>
-                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(#e66465, #9198e5)', marginTop:'80px'}}>
+                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(127,130,56,1) 3%, rgba(86,148,161,1) 100%)'}}>
                      <div style={{marginTop:'30px'}}>
                         <img src='superw.png' style={{height: '13rem', objectFit: 'contain'}}/>   
                     </div>
