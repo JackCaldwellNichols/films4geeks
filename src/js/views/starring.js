@@ -41,7 +41,7 @@ export const Starring = () => {
                     </div>
                 </div>
                 <div className='mt-2'>
-                    <h6>Mireya </h6>
+                    <h6>Mireya De La Corte Ríos</h6>
                     <h6>Co-Founder & CEO, Films4Geeks</h6>
                     <h6>Lead developer</h6>
                     <h6>Linkedin: </h6>
