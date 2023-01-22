@@ -81,7 +81,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			setSeen: (poster_path) => {
 				
 				const store = getStore();
-				setStore({seen: [...store.seen, poster_path]})
+				setStore({seen: [...store.seen, poster_path ]})
 				
 			},
 

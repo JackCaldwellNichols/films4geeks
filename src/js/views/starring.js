@@ -1,27 +1,53 @@
 import React from 'react'
+import '../../img/spiderman.png'
+import '../../img/super.png'
+import '../../img/superw.png'
+
 
 export const Starring = () => {
   return (
-    <div className='container'>
-        <div className='d-flex justify-content-between mt-5'>
-            <div className='card col-3'>
-                <div className='card-title'>
-                    <h4>David</h4>
+    <div className='container text-center mt-4'>
+        <div className='d-flex justify-content-around flex-wrap'>
+            <div>
+                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(#e66465, #9198e5)'}}>
+                    <div style={{marginTop: '30px'}}>
+                        <img src='spiderman.png' style={{height: '13rem', objectFit: 'contain'}}/>   
+                    </div>
                 </div>
-                <img className='card-img-top' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFtEtujM7WC1SIlFmLLCR4N_SdWJcg_Cg6w&usqp=CAU'/>
-            </div>
-            <div className='card col-3'>
-                <div className='card-title'>
-                    <h4>Mireya</h4>
+                <div className='mt-3'>
+                    <h6>David Galisteo Pujol</h6>
+                    <h6>Co-Founder & CEO, Films4Geeks</h6>
+                    <h6>Lead developer</h6>
+                    <h6>Linkedin: </h6>
                 </div>
-                <img className='card-img-top' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFtEtujM7WC1SIlFmLLCR4N_SdWJcg_Cg6w&usqp=CAU'/>
             </div>
-            <div className='card col-3'>
-                <div className='card-title'>
-                    <h4>Jack</h4>
+            <div>
+                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(#e66465, #9198e5)'}}>
+                    <div style={{marginTop:'30px'}}>
+                        <img src='super.png' style={{height: '13rem', objectFit: 'contain'}}/>   
+                    </div>
                 </div>
-                <img className='card-img-top' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQFtEtujM7WC1SIlFmLLCR4N_SdWJcg_Cg6w&usqp=CAU'/>
+                <div className='mt-2'>
+                    <h6>Jack Caldwell-Nichols</h6>
+                    <h6>Co-Founder & CEO, Films4Geeks</h6>
+                    <h6>Lead developer</h6>
+                    <h6>Linkedin: </h6>
+                </div>
             </div>
+            <div>
+                <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(#e66465, #9198e5)', marginTop:'80px'}}>
+                     <div style={{marginTop:'30px'}}>
+                        <img src='superw.png' style={{height: '13rem', objectFit: 'contain'}}/>   
+                    </div>
+                </div>
+                <div className='mt-2'>
+                    <h6>Mireya </h6>
+                    <h6>Co-Founder & CEO, Films4Geeks</h6>
+                    <h6>Lead developer</h6>
+                    <h6>Linkedin: </h6>
+                </div>
+            </div>
+           
                
         </div>    
     </div>

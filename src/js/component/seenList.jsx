@@ -6,10 +6,12 @@ import '../../styles/pending.css'
 
 const Seenlist = () => {
 const {store, actions } = useContext(Context);
+
     return (
       <div className="text-center d-flex flex-wrap">
           {
               store.seen.map((movie, index) => {
+              
                   return (
                     <div key={index}>
                         <div>

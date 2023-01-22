@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 import { Switch } from "@mui/material";
 import '../../styles/navbar.css'
 
-export const Navbar = ({check,change}) => {
+export const Navbar = () => {
 	return (
-		<nav className="navbar d-flex justify-content-between">
+		<nav className="navbar d-flex justify-content-between
+		">
 			<Link to="/">
 				<span className="navbar-brand mb-0 h1 ms-4">Films4Geeks</span>
 			</Link>

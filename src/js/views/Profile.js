@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { Context } from '../store/appContext';
 import Movielist  from '../component/movielist.jsx';
 import Pendinglist  from '../component/pendinglist.jsx';
@@ -6,7 +6,12 @@ import Seenlist from '../component/seenList.jsx';
 import '../../styles/profile.css'
 
 const Profile = () => {
+  const {store, actions } = useContext(Context);
+
+
+  console.log(store.seen)
   return (
+
     <div className='container mt-4'>
 
         <div className='d-flex justify-content-start'>
