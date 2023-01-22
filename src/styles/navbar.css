@@ -23,3 +23,9 @@ button {
 a {
     text-decoration: none;
 }
+
+.toggle {
+    background: none;
+    border: none;
+    color: rgb(255, 206, 71);
+}

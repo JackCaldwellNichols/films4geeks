@@ -1,9 +1,26 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import { Switch } from "@mui/material";
 import '../../styles/navbar.css'
 
 export const Navbar = () => {
+
+	const [theme, setTheme] = useState('light');
+	const toggleTheme = () => {
+		if (theme === 'light') {
+		setTheme('dark');
+		} else {
+		setTheme('light');
+		};
+
+	}
+
+	useEffect(() => {
+	document.body.className = theme;
+	}, [theme]);
+			
+	
+
 	return (
 		<nav className="navbar d-flex justify-content-between
 		">
@@ -23,7 +40,11 @@ export const Navbar = () => {
 				<Link to="/profile">
 					<div className="nav-link">My Profile</div>
 				</Link>
-			
+				{theme === 'light' ? ( 
+				<button className="toggle" onClick={toggleTheme}><i className="fas fa-moon"></i></button>
+				) : (
+				<button className="toggle" onClick={toggleTheme}><i className="fas fa-sun"></i></button>
+				)}
 			</div>
 		</nav>
 	);

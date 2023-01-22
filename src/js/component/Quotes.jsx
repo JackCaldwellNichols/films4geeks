@@ -5,7 +5,7 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 
 
 
-import '../../styles/home.css'
+
 
 const Quotes = () => {
 	
@@ -17,16 +17,16 @@ const Quotes = () => {
 	return (
 	
 	<div className="text-center">
-	
+
 		<div>
 			{
 				quotes.slice(quoteStart, quoteEnd).map((quote, index) => {
 					return (
-					<div key={index} className='quote'>
-						<div className='column'> 
-							<span className="p-0"><i>"{quote.quote}"</i></span><br></br>
-							<span>{quote.movie}</span><br></br>
-							<span>{quote.year}</span>
+					<div key={index} >
+						<div > 
+							<h6 className="m-0"><i>"{quote.quote}"</i></h6><br></br>
+							<h6 className="m-0">{quote.movie}</h6><br></br>
+							<h6 className="m-0">{quote.year}</h6>
 						</div>
 					</div>	
 					)

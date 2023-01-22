@@ -6,7 +6,7 @@ import '../../img/superw.png'
 
 export const Starring = () => {
   return (
-    <div className='container text-center mt-4'>
+    <div className='container text-center mt-5'>
         <div className='d-flex justify-content-around flex-wrap'>
             <div>
                 <div className='card mt-2' style={{width: '19rem', height: '19rem', background: 'radial-gradient(#e66465, #9198e5)'}}>
